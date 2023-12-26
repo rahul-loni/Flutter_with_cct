@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'login.dart';
+import 'button.dart';
+// import 'login.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -12,7 +13,7 @@ class HomePage extends StatelessWidget {
         appBar: AppBar(
           title: Text("Home Page "),
         ),
-        body: LoginPage(),
+        body: ButtonPage(),
       ),
     );
   }
