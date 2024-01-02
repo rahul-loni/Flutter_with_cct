@@ -12,7 +12,7 @@ class ButtonPage extends StatelessWidget {
           padding: const EdgeInsets.all(8.0),
           child: Column(
             children: [
-              Text("All Flutter Button"),
+              const Text("All Flutter Button"),
               ElevatedButton(
                 onPressed: () {
                   onPressed:
@@ -22,7 +22,7 @@ class ButtonPage extends StatelessWidget {
                         ),
                       );
                 },
-                child: Text(
+                child: const Text(
                   "Elevated Button",
                   style: TextStyle(
                     fontSize: 20.0,
@@ -31,17 +31,19 @@ class ButtonPage extends StatelessWidget {
               ),
               OutlinedButton(
                 onPressed: () {},
-                child: Text("Outline Button"),
+                child: const Text("Outline Button"),
               ),
               TextButton(
                 onPressed: () {},
-                child: Text("Text Button "),
+                child: const Text("Text Button "),
               ),
               IconButton(
                 onPressed: () {},
-                icon: Icon(Icons.notification_add_rounded),
+                icon: const Icon(Icons.notification_add_rounded),
               ),
-              // s
+              // GestureDetector(
+              //   onTap: () {},
+              // ),
             ],
           ),
         ),
@@ -49,7 +51,7 @@ class ButtonPage extends StatelessWidget {
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        child: Icon(Icons.add),
+        child: const Icon(Icons.add),
       ),
     );
   }
