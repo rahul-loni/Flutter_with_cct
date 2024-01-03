@@ -75,6 +75,15 @@ class LoginPage extends StatelessWidget {
                     labelText: "Password"),
               ),
             ),
+            //  Container(
+            //   child: ListView(
+            //     children: [
+            //       Radio(value: 1, groupValue: _paymentType, onChanged: (val)=>setState((){
+            //         _paymentType=val! as int;
+            //       }))
+            //     ],
+            //   ),
+            //  )
             //forgot Password
             Container(
               child: TextButton(
